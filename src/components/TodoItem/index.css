@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.lists {
+  display: flex;
+  justify-content: space-between;
+  max-width: 700px;
+}
+
+.button {
+  font-family: 'Roboto';
+  color: #ff0b37;
+  font-size: 15px;
+  background-color: #ffffff;
+  border: 2px solid #ff0b37;
+  border-radius: 8px;
+  height: 40px;
+  width: 80px;
+  cursor: pointer;
+  outline: none;
+}
+
+.todo {
+  font-family: 'Roboto';
+  color: #000000;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 200px) {
+  .lists {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+  }
+}
